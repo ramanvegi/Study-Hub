@@ -89,10 +89,10 @@ A RESTful API is implemented using **Django REST Framework (DRF)** to expose roo
 
 studybud/
 │
-├── base/
+├── base/                                       # Main app
 │   ├── api/
 │   ├── migrations/
-│   ├── templates/
+│   ├── templates/                              # Internal Templates
 │   │   └── base/
 │   │       ├── activity_component.html
 │   │       ├── activity.html
@@ -115,22 +115,22 @@ studybud/
 │   ├── urls.py
 │   └── views.py
 │
-├── static/
-│   ├── images/
+├── static/                                      # Global static
+│   ├── images/                                  
 │   │   └── rooms/
 │   │       └── images
 │   ├── js/
-│   └── styles/
+│   └── styles/                                   # Styling
 │       ├── main.css
 │       └── style.css
 │
-├── studybud/
+├── studybud/                                     # Project config
 │   ├── settings.py
 │   ├── urls.py
 │   ├── asgi.py
 │   └── wsgi.py
 │
-├── templates/
+├── templates/                                    # Global templates
 │   ├── main.html
 │   └── navbar.html
 │
