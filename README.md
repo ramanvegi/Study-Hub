@@ -1,5 +1,5 @@
 
-# 📚 StudyBud
+# 📚 # StudyHub – Online Study Community Platform
 
 A full-stack web platform for students to connect, share knowledge, and collaborate through topic-based discussion rooms.
 
@@ -7,7 +7,7 @@ A full-stack web platform for students to connect, share knowledge, and collabor
 
 ## 🚀 Overview
 
-**StudyBud** is a collaborative learning platform that helps learners connect, join organized study rooms, discuss topics, and exchange ideas through real-time conversations. It enables students to collaborate instantly using interactive rooms, topic-wise discussions, and a smooth real-time messaging experience.
+**StudyHub** is a collaborative learning platform that helps learners connect, join organized study rooms, discuss topics, and exchange ideas through real-time conversations. It enables students to collaborate instantly using interactive rooms, topic-wise discussions, and a smooth real-time messaging experience.
 
 ---
 
@@ -87,12 +87,13 @@ A RESTful API is implemented using **Django REST Framework (DRF)** to expose roo
 
 ## 📂 Project Structure
 
-study-bud/
+studybud/
 │
 ├── base/
 │   ├── api/
 │   ├── migrations/
-│   ├── templates
+│   ├── templates/
+│   │   └── base/
 │   │       ├── activity_component.html
 │   │       ├── activity.html
 │   │       ├── delete.html
@@ -104,7 +105,7 @@ study-bud/
 │   │       ├── room.html
 │   │       ├── topics_component.html
 │   │       ├── topics.html
-│   │       └── update_user.html
+│   │       └── update-user.html
 │   │
 │   ├── admin.py
 │   ├── apps.py
@@ -125,17 +126,21 @@ study-bud/
 │
 ├── studybud/
 │   ├── settings.py
-│   └── urls.py
+│   ├── urls.py
+│   ├── asgi.py
+│   └── wsgi.py
 │
 ├── templates/
 │   ├── main.html
 │   └── navbar.html
 │
 ├── env/
-│
-├── requirements.txt
+├── db.sqlite3
+├── manage.py
 ├── README.md
+├── requirements.txt
 └── .gitignore
+
 
 ---
 
