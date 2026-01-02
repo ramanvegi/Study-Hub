@@ -1,5 +1,5 @@
 
-# 📚 # StudyHub – Online Study Community Platform
+# 📚 StudyHub – Online Study Community Platform
 
 A full-stack web platform for students to connect, share knowledge, and collaborate through topic-based discussion rooms.
 
@@ -140,7 +140,3 @@ studybud/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-
-
----
-
