@@ -87,6 +87,7 @@ A RESTful API is implemented using **Django REST Framework (DRF)** to expose roo
 
 ## 📂 Project Structure
 
+```text
 studybud/
 │
 ├── base/                                       # Main app
